@@ -10,3 +10,4 @@ async def greet(name: str = 'Recruto', message: str = 'Давай дружить
 
 if __name__ == '__main__':
     uvicorn.run('main:app')
+
